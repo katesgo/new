@@ -1,0 +1,289 @@
+[
+  {
+    "id": "lotion",
+    "name": "ÆTHERRA Harmonizing Hibiscus",
+    "price": 27,
+    "stock": 9,
+    "image": "Cosmetic_jar_in_black_silk_202607050109.jpeg"
+  },
+  {
+    "id": "cream",
+    "name": "ÆTHERRA Butterfly Beauty Hydrosol Spray",
+    "price": 21,
+    "stock": 15,
+    "image": "IMG_9710.jpeg_2K_202607072119.jpeg"
+  },
+  {
+    "id": "perfume",
+    "name": "ÆTHERRA Floral Calm Solid Perfume",
+    "price": 18,
+    "stock": 20,
+    "image": "image0_(1).jpeg_2K_202607072123.jpeg"
+  },
+  {
+    "id": "fluorite-necklace",
+    "name": "Fluorite Necklace",
+    "price": 32,
+    "stock": 0,
+    "image": "IMG_9625.jpg_2K_202607011208.jpeg"
+  },
+  {
+    "id": "labradorite-necklace",
+    "name": "Labradorite Necklace",
+    "price": 36,
+    "stock": 1,
+    "image": "Moody_and_elegant_product_shot_202607011116.jpeg"
+  },
+  {
+    "id": "amethyst-bracelet",
+    "name": "Chip Amethyst Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "Amethyst_bracelet_on_silk_2K_202607011107.jpeg"
+  },
+  {
+    "id": "assorted-rings",
+    "name": "Assorted Dainty Rings",
+    "price": 12,
+    "stock": 1,
+    "image": "IMG_9626.jpg_2K_202607011234.jpeg"
+  },
+  {
+    "id": "garnet-bracelet",
+    "name": "Garnet Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "IMG_9627.jpg_2K_202607011233.jpeg"
+  },
+  {
+    "id": "copper-bangle",
+    "name": "10 Gauge Copper Bangle",
+    "price": 20,
+    "stock": 10,
+    "image": "bangle.jpeg"
+  },
+  {
+    "id": "strawberry-quartz-bracelet",
+    "name": "4mm Strawberry Quartz Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "strawberry4mmbracelet.jpeg"
+  },
+  {
+    "id": "carnelian-4mm-bracelet",
+    "name": "Carnelian 4mm Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "carnelian4mmbracelet.jpeg"
+  },
+  {
+    "id": "citrine-4mm-bracelet",
+    "name": "Yellow Agate 4mm Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "citrine4mmbracelet.jpeg"
+  },
+  {
+    "id": "dragonsblood-4mm-bracelet",
+    "name": "Dragon's Blood 4mm Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "dragonsblood4mmbracelet.png"
+  },
+  {
+    "id": "turquoise-4mm-bracelet",
+    "name": "Turquoise 4mm Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "turquoise4mmbracelet.jpeg"
+  },
+  {
+    "id": "carnelian-bracelet",
+    "name": "Carnelian 6mm Bracelet",
+    "price": 30,
+    "stock": 10,
+    "image": "carnelian6mmbracelet2.jpg"
+  },
+  {
+    "id": "sunstone-bracelet",
+    "name": "Sunstone 6mm Bracelet",
+    "price": 30,
+    "stock": 1,
+    "image": "sunstone6mmbracelet.jpeg"
+  },
+  {
+    "id": "malachite-bracelet",
+    "name": "Malachite 6mm Bracelet",
+    "price": 30,
+    "stock": 1,
+    "image": "malachite6mmbracelet.jpeg"
+  },
+  {
+    "id": "dragonsblood-bracelet",
+    "name": "Dragon's Blood 8mm Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "dragonsblood8mmbracelet.jpeg"
+  },
+  {
+    "id": "chip-aquamarine-bracelet",
+    "name": "Chip Aquamarine Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chipaquamarinebracelet.jpeg"
+  },
+  {
+    "id": "chip-aventurine-bracelet",
+    "name": "Chip Aventurine Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chipaventurinebracelet.jpeg"
+  },
+  {
+    "id": "chip-fluorite-bracelet",
+    "name": "Chip Fluorite Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chipflouritebracelet.jpeg"
+  },
+  {
+    "id": "chip-onyx-bracelet",
+    "name": "Chip Onyx Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chiponyxbracelet.jpeg"
+  },
+  {
+    "id": "chip-peridot-bracelet",
+    "name": "Chip Peridot Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chipperidotbracelet.jpeg"
+  },
+  {
+    "id": "chip-red-coral-bracelet",
+    "name": "Chip Red Coral Bracelet",
+    "price": 27,
+    "stock": 1,
+    "image": "chipredcoralbracelet.jpeg"
+  },
+  {
+    "id": "citrine-6mm-bracelet",
+    "name": "Citrine 6mm Bracelet",
+    "price": 30,
+    "stock": 1,
+    "image": "citrine6mmbraceletb.jpg"
+  },
+  {
+    "id": "white-jade-8mm-bracelet",
+    "name": "White Jade 8mm Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "whitejade8mmbracelet.jpg"
+  },
+  {
+    "id": "carnelian-8mm-bracelet",
+    "name": "Carnelian 8mm Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "carnelian8mmbracelet.jpg"
+  },
+  {
+    "id": "blue-aventurine-8mm-bracelet",
+    "name": "Blue Aventurine 8mm Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "blueaventurine8mmbracelet2.jpg"
+  },
+  {
+    "id": "amethyst-8mm-bracelet",
+    "name": "Amethyst 8mm Bracelet",
+    "price": 33,
+    "stock": 1,
+    "image": "amethyst8mmbracelet.jpg"
+  },
+  {
+    "id": "amazonite-8mm-necklace",
+    "name": "Amazonite 8mm Necklace",
+    "price": 39,
+    "stock": 1,
+    "image": "amazonite8mmnecklace.jpg"
+  },
+  {
+    "id": "amethyst-chain-necklace",
+    "name": "Amethyst Chain Necklace",
+    "price": 30,
+    "stock": 1,
+    "image": "amethystchainnecklace.jpg"
+  },
+  {
+    "id": "black-tourmaline-chip-necklace",
+    "name": "Black Tourmaline Chip Necklace",
+    "price": 33,
+    "stock": 1,
+    "image": "blacktourmalinechipnecklace.jpg"
+  },
+  {
+    "id": "carnelian-pendant-chain-necklace",
+    "name": "Carnelian Pendant Chain Necklace",
+    "price": 30,
+    "stock": 1,
+    "image": "carnelianpendantchainnecklace.jpg"
+  },
+  {
+    "id": "dragonsblood-faceted-necklace",
+    "name": "Dragon's Blood Faceted Necklace",
+    "price": 39,
+    "stock": 1,
+    "image": "dragonsbloodfacetednecklace.jpg"
+  },
+  {
+    "id": "fluorite-chip-necklace",
+    "name": "Fluorite Chip Necklace",
+    "price": 33,
+    "stock": 1,
+    "image": "fluoritechipnecklace.jpg"
+  },
+  {
+    "id": "garnet-chip-necklace",
+    "name": "Garnet Chip Necklace",
+    "price": 33,
+    "stock": 1,
+    "image": "garnetchipnecklace.jpg"
+  },
+  {
+    "id": "jade-pearl-chain-necklace",
+    "name": "Jade & Pearl Chain Necklace",
+    "price": 30,
+    "stock": 1,
+    "image": "jadepearlchainnecklace.jpg"
+  },
+  {
+    "id": "labradorite-beaded-necklace",
+    "name": "Labradorite Beaded Necklace",
+    "price": 36,
+    "stock": 1,
+    "image": "labradoritebeadednecklace.jpg"
+  },
+  {
+    "id": "pearl-8mm-necklace",
+    "name": "Pearl 8mm Necklace",
+    "price": 39,
+    "stock": 1,
+    "image": "pearl8mmnecklace.jpg"
+  },
+  {
+    "id": "shell-pendant-chain-necklace",
+    "name": "Shell Pendant Chain Necklace",
+    "price": 30,
+    "stock": 1,
+    "image": "shellpendantchainnecklace.jpg"
+  },
+  {
+    "id": "yellow-agate-4mm-necklace",
+    "name": "Yellow Agate 4mm Necklace",
+    "price": 33,
+    "stock": 1,
+    "image": "yellowagate4mmnecklace.jpg"
+  }
+]
