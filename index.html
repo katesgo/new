@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="logocircle.png" type="image/png">
+    <link rel="apple-touch-icon" href="logocircle.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÆTHERRA Holistic Beauty | Handcrafted Natural Skincare & Copper Jewelry</title>
+    <meta name="description"
+        content="ÆTHERRA Holistic Beauty — handcrafted plant-based skincare and artisan copper crystal jewelry. Small-batch, natural formulations for sensitive skin. Made in Toronto.">
+    <meta name="keywords"
+        content="ÆTHERRA Holistic Beauty, aetherra holistic, holistic beauty Toronto, natural skincare, copper jewelry, handmade, plant-based beauty, artisan">
+    <meta name="author" content="ÆTHERRA Holistic Beauty">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0a12">
+    <link rel="canonical" href="https://aetherraholistic.ca/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aetherraholistic.ca/">
+    <meta property="og:title" content="ÆTHERRA Holistic Beauty | Handcrafted Natural Skincare & Copper Jewelry">
+    <meta property="og:description" content="ÆTHERRA Holistic Beauty — handcrafted natural skincare and artisan copper crystal jewelry for sensitive souls. Made in Toronto.">
+    <meta property="og:image" content="https://aetherraholistic.ca/logocircle.png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="ÆTHERRA Holistic Beauty">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aetherraholistic.ca/">
+    <meta property="twitter:title" content="ÆTHERRA Holistic Beauty | Natural Skincare & Copper Jewelry">
+    <meta property="twitter:description" content="ÆTHERRA Holistic Beauty — natural skincare and artisan copper jewelry handcrafted in Toronto.">
+    <meta property="twitter:image" content="https://aetherraholistic.ca/logocircle.png">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://aetherraholistic.ca/#organization",
+      "name": "ÆTHERRA Holistic Beauty",
+      "url": "https://aetherraholistic.ca",
+      "logo": "https://aetherraholistic.ca/logocircle.png",
+      "description": "Handcrafted plant-based skincare and artisan copper jewelry for sensitive souls. Small-batch made in Toronto.",
+      "email": "aetherraholistic@proton.me",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Toronto",
+        "addressRegion": "ON",
+        "addressCountry": "CA"
+      },
+      "sameAs": [
+        "https://www.instagram.com/aetherraholistic/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "ÆTHERRA Holistic Beauty",
+      "url": "https://aetherraholistic.ca",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://aetherraholistic.ca/?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital@0;1&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="bg-[#0a0a12] fixed w-full z-50 border-b border-[#c97b3a]/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0">
+                    <a href="index.html"><img class="h-20" src="logocircle.png" alt="ÆTHERRA Logo"></a>
+                </div>
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Home</a>
+                    <a href="skincare.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Skincare</a>
+                    <div class="relative group">
+                    <a href="jewelry.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Jewelry <i class="fas fa-chevron-down ml-1 text-xs"></i></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block min-w-[190px]">
+                        <div class="bg-[#12121e] border border-[#c97b3a]/20 rounded-lg shadow-lg py-2">
+                            <a href="bracelets.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Bracelets</a>
+                            <a href="necklaces.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Necklaces</a>
+                            <a href="rings.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Rings</a>
+                            <a href="earrings.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Earrings</a>
+                        </div>
+                    </div>
+                </div>
+                    <a href="zodiac-crystals.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Birthstones</a>
+                    <a href="sanctum.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Sanctum</a>
+                    <a href="index.html#about" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">About</a>
+                    <a href="index.html#values" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Our Values</a>
+                    <a href="index.html#contact" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Contact</a>
+                    <button id="wishlist-button-desktop"
+                        class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow relative" aria-label="Wishlist">
+                        <i class="far fa-heart"></i>
+                        <span class="wishlist-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-[#c97b3a] text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                    <button id="cart-button-desktop"
+                        class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-red-500 text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] focus:outline-none">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <button type="button" id="wishlist-button-mobile"
+                        class="ml-4 p-2 rounded-md text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] focus:outline-none relative" aria-label="Wishlist">
+                        <i class="far fa-heart"></i>
+                        <span class="wishlist-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-[#c97b3a] text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                    <button type="button" id="cart-button-mobile"
+                        class="ml-4 p-2 rounded-md text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] focus:outline-none relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-red-500 text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-[#12121e] border-t border-[#c97b3a]/20 shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#d4a373] hover:bg-[#1a1a2e]">Home</a>
+                <a href="skincare.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Skincare</a>
+                <a href="jewelry.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Jewelry</a>
+<a href="bracelets.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Bracelets</a>
+                <a href="necklaces.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Necklaces</a>
+                <a href="rings.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Rings</a>
+                <a href="earrings.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Earrings</a>
+                <a href="zodiac-crystals.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Birthstones</a>
+                <a href="sanctum.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Sanctum</a>
+                <a href="index.html#about" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">About</a>
+                <a href="index.html#values" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Our Values</a>
+                <a href="index.html#contact" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient min-h-screen flex items-center overflow-hidden relative">
+        <div class="hero-orb hero-orb-1"></div>
+        <div class="hero-orb hero-orb-2"></div>
+        <div class="hero-orb hero-orb-3"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <div class="mb-12 lg:mb-0 relative z-10">
+                    <p class="text-sm md:text-base uppercase tracking-widest text-[#d4a373] mb-6 animate-fade-in" style="font-family: 'Poppins', sans-serif; font-weight: 300;">Essence of the Ethereal</p>
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-[#d4a373] mb-6 animate-fade-in-delay" style="font-family: 'Alex Brush', cursive; font-weight: 400; line-height: 1.2;">
+                        Anointed &amp; Adorned
+                    </h1>
+                    <p class="text-lg md:text-xl text-[#c4b8a8] mb-8 animate-fade-in" style="font-family: 'Cormorant Garamond', serif; font-style: italic; animation-delay: 0.4s; animation-fill-mode: both;">
+                        Handcrafted skincare and copper jewelry inspired by ancient alchemy. Return to nature. Return to yourself.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="skincare.html" class="btn-primary copper-glow">Shop Skincare</a>
+                        <a href="jewelry.html" class="btn-outline">Shop Jewelry</a>
+                    </div>
+                </div>
+                <div class="relative flex justify-center">
+                    <div class="w-full max-w-lg">
+                        <img src="Image_fx.png_2K_202607011609.jpeg" alt="ÆTHERRA holistic skincare and copper jewelry product display" class="w-full h-auto object-contain rounded-2xl shadow-[0_0_30px_rgba(201,123,58,0.25)]">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 px-4 bg-[#0a0a12]">
+        <div class="max-w-4xl mx-auto text-center">
+            <center class="reveal">
+                <img src="logocircle.png" alt="ÆTHERRA Holistic Beauty logo" width="400" height="400" class="w-48 sm:w-64 md:w-80 lg:w-96 relative z-10 object-contain copper-glow rounded-full">
+            </center>
+            <br>
+            <h2 class="section-title reveal">The Ælchemy of ÆTHERRA</h2>
+            <p class="text-[#d4a373] mb-6 reveal" style="font-family: 'Playfair Display', serif; font-size: clamp(1.1rem, 3vw, 1.4rem); line-height: 1.4;">Self care is not merely a routine but a sacred ritual that connects to the real you.</p>
+            <p class="text-[#c4b8a8] max-w-3xl mx-auto px-4 text-sm sm:text-base reveal">
+                ÆTHERRA was born from a personal journey with sensitive skin and a deep appreciation for nature. Each product is handcrafted in small batches using natural ingredients and blended with the wisdom of ancient botanicals.                 Our copper jewelry follows the same philosophy — thoughtfully handcrafted with natural crystals, semi-precious stones, pearls, and seashells, and designed to be as timeless as the earth they come from.
+            </p>
+        </div>
+    </section>
+
+    <!-- Bestsellers Section -->
+    <section id="featured-items" class="py-16 px-4 bg-[#0d0d18]">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title reveal">Featured Items</h2>
+            <p class="section-sub reveal">Handpicked skincare and jewelry for you.</p>
+
+            <!-- Skincare bestsellers -->
+            <div class="mb-6">
+                <h3 class="title-font text-lg sm:text-xl text-[#d4a373] mb-4 flex items-center gap-2">
+                    <span class="w-7 sm:w-8 h-7 sm:h-8 rounded-full bg-muted-teal\/15 flex items-center justify-center"><i class="fas fa-leaf text-xs sm:text-sm text-muted-teal"></i></span> Skincare Favorites
+                </h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children mb-16">
+                <!-- Hydration Cream -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">Bestseller</span>
+                    <a href="skincare.html">
+                    <div class="img-wrap">
+                        <img src="Cosmetic_jar_in_black_silk_202607050109.jpeg" alt="ÆTHERRA Harmonizing Hibiscus">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="skincare.html" class="hover:text-[#d4a373] transition-slow">ÆTHERRA Harmonizing Hibiscus</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Deeply moisturizing, all-natural butter for face and body — made for sensitive skin</p>
+                            <span class="price">$27</span>
+                        <div class="btn-row">
+                        <button onclick="if(INVENTORY['lotion'].stock > (cart.items.find(i => i.id === 'lotion')?.quantity || 0)) cart.addItem({id: 'lotion', name: 'ÆTHERRA Harmonizing Hibiscus', price: 27, image: 'Cosmetic_jar_in_black_silk_202607050109.jpeg'})"
+                            class="btn-add" id="btn-lotion" data-id="lotion">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="lotion"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Butterfly Beauty Hydrosol Spray -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">New</span>
+                    <a href="skincare.html">
+                    <div class="img-wrap">
+                        <img src="IMG_9710.jpeg_2K_202607072119.jpeg" alt="ÆTHERRA Butterfly Beauty Hydrosol Spray">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="skincare.html" class="hover:text-[#d4a373] transition-slow">ÆTHERRA Butterfly Beauty Hydrosol Spray</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Gently hydrates, softens and revives dry skin and hair — a delicate botanical mist for face and body</p>
+                            <span class="price">$21</span>
+                        <div class="btn-row">
+                        <button onclick="cart.addItem({id: 'cream', name: 'ÆTHERRA Butterfly Beauty Hydrosol Spray', price: 21, image: 'IMG_9710.jpeg_2K_202607072119.jpeg'})"
+                            class="btn-add" data-id="cream">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="cream"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Solid Perfume -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">Bestseller</span>
+                    <a href="skincare.html">
+                    <div class="img-wrap">
+                        <img src="image0_(1).jpeg_2K_202607072123.jpeg" alt="ÆTHERRA Floral Calm Solid Perfume">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="skincare.html" class="hover:text-[#d4a373] transition-slow">ÆTHERRA Floral Calm Solid Perfume</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Soothing floral blend in a pocket-sized balm</p>
+                            <span class="price">$18</span>
+                        <div class="btn-row">
+                        <button onclick="cart.addItem({id: 'perfume', name: 'ÆTHERRA Floral Calm Solid Perfume', price: 18, image: 'image0_(1).jpeg_2K_202607072123.jpeg'})"
+                            class="btn-add" data-id="perfume">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="perfume"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Jewelry bestsellers -->
+            <div class="mb-6">
+                <h3 class="title-font text-lg sm:text-xl text-[#d4a373] mb-4 flex items-center gap-2">
+                    <span class="w-7 sm:w-8 h-7 sm:h-8 rounded-full bg-muted-purple\/15 flex items-center justify-center"><i class="fas fa-gem text-xs sm:text-sm text-muted-purple"></i></span> Jewelry Favorites
+                </h3>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-children">
+                <!-- Fluorite Necklace -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">New</span>
+                    <a href="necklaces.html#fluorite-necklace">
+                    <div class="img-wrap bg-[#1a0f0a] flex items-center justify-center">
+                        <img src="IMG_9625.jpg_2K_202607011208.jpeg" alt="Fluorite Necklace" class="w-full h-full object-cover">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="necklaces.html#fluorite-necklace" class="hover:text-[#d4a373] transition-slow">Fluorite Necklace</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Green and purple fluorite crystal wrapped in copper</p>
+
+                        <div class="btn-row">
+                        <button onclick="if(INVENTORY['fluorite-necklace'].stock > (cart.items.find(i => i.id === 'fluorite-necklace')?.quantity || 0)) cart.addItem({id: 'fluorite-necklace', name: 'Fluorite Necklace', price: 32, image: 'IMG_9625.jpg_2K_202607011208.jpeg'})"
+                            class="btn-add" data-id="fluorite-necklace">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="fluorite-necklace"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Labradorite Necklace -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">New</span>
+                    <a href="necklaces.html#labradorite-necklace">
+                    <div class="img-wrap bg-[#1a0f0a] flex items-center justify-center">
+                        <img src="Moody_and_elegant_product_shot_202607011116.jpeg" alt="Labradorite Necklace" class="w-full h-full object-cover">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="necklaces.html#labradorite-necklace" class="hover:text-[#d4a373] transition-slow">Labradorite Necklace</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Raw labradorite pendant with iridescent blue-green flash</p>
+
+                        <div class="btn-row">
+                        <button onclick="if(INVENTORY['labradorite-necklace'].stock > (cart.items.find(i => i.id === 'labradorite-necklace')?.quantity || 0)) cart.addItem({id: 'labradorite-necklace', name: 'Labradorite Necklace', price: 36, image: 'Moody_and_elegant_product_shot_202607011116.jpeg'})"
+                            class="btn-add" data-id="labradorite-necklace">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="labradorite-necklace"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chip Amethyst Bracelet -->
+                <div class="product-card-compact relative">
+                    <span class="badge-bestseller">New</span>
+                    <a href="bracelets.html#amethyst-bracelet">
+                    <div class="img-wrap bg-[#1a0f0a] flex items-center justify-center">
+                        <img src="Amethyst_bracelet_on_silk_2K_202607011107.jpeg" alt="Chip Amethyst Bracelet" class="w-full h-full object-cover">
+                    </div>
+                    </a>
+                    <div class="info">
+                        <h3><a href="bracelets.html#amethyst-bracelet" class="hover:text-[#d4a373] transition-slow">Chip Amethyst Bracelet</a></h3>
+                        <p class="text-[#8a7e72] text-xs mb-2">Natural amethyst chips wire-woven in copper, calming lavender hue</p>
+
+                        <div class="btn-row">
+                        <button onclick="if(INVENTORY['amethyst-bracelet'].stock > (cart.items.find(i => i.id === 'amethyst-bracelet')?.quantity || 0)) cart.addItem({id: 'amethyst-bracelet', name: 'Chip Amethyst Bracelet', price: 27, image: 'Amethyst_bracelet_on_silk_2K_202607011107.jpeg'})"
+                            class="btn-add" data-id="amethyst-bracelet">Add to Cart</button>
+                        <button class="btn-wishlist" data-wishlist-id="amethyst-bracelet"><i class="far fa-heart"></i> Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-12 reveal">
+                <a href="skincare.html" class="btn-primary copper-glow">View All Skincare</a>
+                <a href="jewelry.html" class="btn-outline">View All Jewelry</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="py-16 px-4 bg-[#12121e]">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title reveal">Our Core Values</h2>
+            <p class="section-sub reveal">These principles guide everything we make.</p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-8 stagger-children">
+                <div class="bg-[#1a1a2e] p-6 sm:p-8 rounded-lg border border-muted-teal\/10 text-center">
+                    <div class="w-12 sm:w-14 h-12 sm:h-14 bg-muted-teal\/15 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-muted-teal text-lg sm:text-xl"></i></div>
+                    <h3 class="title-font text-lg sm:text-xl font-semibold text-[#d4a373] mb-3">Rooted in Nature</h3>
+                    <p class="text-[#c4b8a8] text-sm">Inspired by traditional botanicals and timeless craftsmanship.</p>
+                </div>
+                <div class="bg-[#1a1a2e] p-6 sm:p-8 rounded-lg border border-muted-purple\/10 text-center">
+                    <div class="w-12 sm:w-14 h-12 sm:h-14 bg-muted-purple\/15 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hands-helping text-muted-purple text-lg sm:text-xl"></i></div>
+                    <h3 class="title-font text-lg sm:text-xl font-semibold text-[#d4a373] mb-3">Gentle for All</h3>
+                    <p class="text-[#c4b8a8] text-sm">Formulated for sensitive skin and made for everyone.</p>
+                </div>
+                <div class="bg-[#1a1a2e] p-6 sm:p-8 rounded-lg border border-muted-teal\/10 text-center">
+                    <div class="w-12 sm:w-14 h-12 sm:h-14 bg-muted-teal\/15 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-eye text-muted-teal text-lg sm:text-xl"></i></div>
+                    <h3 class="title-font text-lg sm:text-xl font-semibold text-[#d4a373] mb-3">Transparency + Trust</h3>
+                    <p class="text-[#c4b8a8] text-sm">Honest ingredients, ethical sourcing, open communication.</p>
+                </div>
+                <div class="bg-[#1a1a2e] p-6 sm:p-8 rounded-lg border border-muted-purple\/10 text-center">
+                    <div class="w-12 sm:w-14 h-12 sm:h-14 bg-muted-purple\/15 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-spa text-muted-purple text-lg sm:text-xl"></i></div>
+                    <h3 class="title-font text-lg sm:text-xl font-semibold text-[#d4a373] mb-3">Empowerment Through Ritual</h3>
+                    <p class="text-[#c4b8a8] text-sm">Skincare and adornment as moments of peace and connection.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 px-4 hero-gradient">
+        <div class="max-w-7xl mx-auto text-center relative z-10">
+            <div class="max-w-3xl mx-auto reveal">
+                <h2 class="section-title text-[#d4a373] mb-6">Ready to Experience Nature's Healing?</h2>
+                <p class="text-[#c4b8a8] mb-8 text-lg">Explore our full collection of skincare and copper jewelry.</p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="skincare.html" class="btn-primary copper-glow">Shop Skincare</a>
+                    <a href="jewelry.html" class="btn-outline">Shop Jewelry</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4 bg-[#0d0d18]">
+        <div class="max-w-7xl mx-auto">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-12">
+                <div class="mb-12 lg:mb-0 px-4 sm:px-6 lg:px-8 reveal-left">
+                    <h2 class="title-font text-3xl md:text-4xl font-bold text-[#d4a373] mb-6">Get In Touch</h2>
+                    <p class="text-[#c4b8a8] mb-8">Have questions about our products or orders? We'd love to hear from you!</p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1"><i class="fas fa-envelope text-[#d4a373] text-xl"></i></div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-[#d4a373]">Email Us</h3>
+                                <p class="text-[#c4b8a8]">aetherraholistic@proton.me</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1"><i class="fas fa-map-marker-alt text-[#d4a373] text-xl"></i></div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-medium text-[#d4a373]">Handmade in</h3>
+                                <p class="text-[#c4b8a8]">Toronto, ON, Canada</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h3 class="text-lg font-medium text-[#d4a373] mb-4">Follow Us</h3>
+                        <div class="flex items-center space-x-3">
+                            <a href="http://instagram.com/aetherraholistic"
+                                class="w-10 h-10 rounded-full bg-[#c97b3a]/15 flex items-center justify-center text-[#d4a373] hover:bg-[#c97b3a]/30 transition-slow"><i class="fab fa-instagram"></i></a>
+                            <a href="http://instagram.com/aetherraholistic" class="text-[#c4b8a8] hover:text-[#d4a373] transition-slow text-sm">@aetherraholistic</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-right">
+                    <form class="bg-[#12121e] p-6 sm:p-8 rounded-lg border border-[#c97b3a]/10" action="https://formspree.io/f/mrblkjqo" method="POST">
+                        <div class="mb-6"><label for="name" class="block text-[#c4b8a8] font-medium mb-2">Your Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-[#c97b3a]/20 bg-[#1a1a2e] text-[#e8e0d8] focus:border-[#c97b3a] focus:outline-none focus:ring-1 focus:ring-[#c97b3a]">
+                        </div>
+                        <div class="mb-6"><label for="email" class="block text-[#c4b8a8] font-medium mb-2">Email Address</label>
+                            <input type="email" name="email" id="email" class="w-full px-4 py-3 rounded-lg border border-[#c97b3a]/20 bg-[#1a1a2e] text-[#e8e0d8] focus:border-[#c97b3a] focus:outline-none focus:ring-1 focus:ring-[#c97b3a]">
+                        </div>
+                        <div class="mb-6"><label for="subject" class="block text-[#c4b8a8] font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-3 rounded-lg border border-[#c97b3a]/20 bg-[#1a1a2e] text-[#e8e0d8] focus:border-[#c97b3a] focus:outline-none focus:ring-1 focus:ring-[#c97b3a]">
+                        </div>
+                        <div class="mb-6"><label for="message" class="block text-[#c4b8a8] font-medium mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-[#c97b3a]/20 bg-[#1a1a2e] text-[#e8e0d8] focus:border-[#c97b3a] focus:outline-none focus:ring-1 focus:ring-[#c97b3a]"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0a12] border-t border-[#c97b3a]/20 text-[#e8e0d8] py-12 px-4">
+        <div class="max-w-7xl mx-auto reveal">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <a href="index.html"><img src="logocircle.png" alt="ÆTHERRA Logo" class="h-12 mb-4"></a>
+                    <p class="text-[#8a7e72] text-sm">The Essence of the Ethereal. Handcrafted skincare and copper jewelry for sensitive souls.</p>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Collections</h3>
+                    <ul class="space-y-2">
+                        <li><a href="skincare.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Skincare</a></li>
+                        <li><a href="jewelry.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Jewelry</a></li>
+                        <li><a href="zodiac-crystals.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Birthstones</a></li>
+                        <li><a href="index.html#featured-items" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Featured Items</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Explore</h3>
+                    <ul class="space-y-2">
+                        <li><a href="sanctum.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Sanctum</a></li>
+                        <li><a href="index.html#about" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">About</a></li>
+                        <li><a href="index.html#values" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Our Values</a></li>
+                        <li><a href="index.html#contact" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Info</h3>
+                    <ul class="space-y-2">
+                        <li><a href="shipping-policy.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Shipping Policy</a></li>
+                        <li><a href="returns-refunds.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Returns & Refunds</a></li>
+                        <li><a href="privacy-policy.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-[#c97b3a]/20 mt-12 pt-8">
+                <p class="text-[#8a7e72] text-xs leading-relaxed text-center">Disclaimer: The information and products on this site are for general informational purposes only and are not intended to diagnose, treat, cure, or prevent any disease. Our products have not been evaluated by the Food and Drug Administration. Always perform a patch test before first use and consult a physician before using any skincare product or copper jewelry, especially if you are pregnant, nursing, or taking medication. Copper jewelry may cause skin reactions in those with metal or copper sensitivity. Results may vary from person to person. By purchasing from ÆTHERRA, you acknowledge that you have read and understood this disclaimer.</p>
+            </div>
+            <div class="border-t border-[#c97b3a]/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-[#8a7e72] text-sm mb-4 md:mb-0">&copy; 2026 ÆTHERRA Holistic Beauty. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-cc-visa text-2xl"></i></a>
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-cc-mastercard text-2xl"></i></a>
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-paypal text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm transition-opacity"></div>
+        <div class="fixed inset-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                    <div class="pointer-events-auto w-screen max-w-md">
+                        <div class="flex h-full flex-col overflow-y-auto bg-[#12121e] shadow-xl border-l border-[#c97b3a]/20">
+                            <div class="flex-1 px-4 py-6 sm:px-6">
+                                <div class="flex items-start justify-between">
+                                    <h2 class="text-lg font-medium text-[#d4a373]" id="slide-over-title">Shopping Cart</h2>
+                                    <div class="ml-3 flex h-7 items-center">
+                                        <button type="button" id="close-cart" class="relative -m-2 p-2 text-[#8a7e72] hover:text-[#d4a373]">
+                                            <span class="absolute -inset-0.5"></span>
+                                            <span class="sr-only">Close panel</span>
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mt-8">
+                                    <div class="flow-root">
+                                        <div id="cart-items" class="divide-y divide-[#c97b3a]/10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-t border-[#c97b3a]/20 px-4 py-6 sm:px-6">
+                                <div class="flex justify-between text-base font-medium text-[#e8e0d8]">
+                                    <p>Subtotal</p>
+                                    <p id="cart-total">$0.00</p>
+                                </div>
+                                <div class="flex justify-between text-base font-medium text-[#e8e0d8] mt-2">
+                                    <p>Shipping</p>
+                                    <p id="cart-shipping">$10.00</p>
+                                </div>
+                                <div class="flex justify-between text-base font-semibold text-[#d4a373] mt-2 mb-6">
+                                    <p>Total</p>
+                                    <p id="cart-grand-total">$0.00</p>
+                                </div>
+                                <p class="mt-0.5 text-sm text-[#6b6058] mb-6">Free shipping on orders over $75. Taxes calculated at checkout.</p>
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Wishlist Modal -->
+    <div id="wishlist-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="wishlist-modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm transition-opacity"></div>
+        <div class="fixed inset-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                    <div class="pointer-events-auto w-screen max-w-md">
+                        <div class="flex h-full flex-col overflow-y-auto bg-[#12121e] shadow-xl border-l border-[#c97b3a]/20">
+                            <div class="flex-1 px-4 py-6 sm:px-6">
+                                <div class="flex items-start justify-between">
+                                    <h2 class="text-lg font-medium text-[#d4a373]" id="wishlist-modal-title">My Wishlist</h2>
+                                    <div class="ml-3 flex h-7 items-center">
+                                        <button type="button" id="close-wishlist" class="relative -m-2 p-2 text-[#8a7e72] hover:text-[#d4a373]">
+                                            <span class="absolute -inset-0.5"></span>
+                                            <span class="sr-only">Close panel</span>
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mt-8">
+                                    <div class="flow-root">
+                                        <div id="wishlist-items" class="divide-y divide-[#c97b3a]/10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-t border-[#c97b3a]/20 px-4 py-6 sm:px-6">
+                                <a href="skincare.html" class="btn-primary w-full block text-center mb-2">Shop Skincare</a>
+                                <a href="jewelry.html" class="btn-outline w-full block text-center">Shop Jewelry</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+    <script src="wishlist.js"></script>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    document.getElementById('mobile-menu').classList.add('hidden');
+                    window.scrollTo({ top: targetElement.offsetTop - 80, behavior: 'smooth' });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', function () {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        // Scroll reveal observer
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale, .stagger-children').forEach(el => {
+            revealObserver.observe(el);
+        });
+    </script>
+</body>
+</html>
