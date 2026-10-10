@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="logocircle.png" type="image/png">
+    <link rel="apple-touch-icon" href="logocircle.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solfeggio | ÆTHERRA Holistic Beauty</title>
+    <meta name="description" content="Solfeggio — the ancient harmonic frequencies and the crystals that carry their resonance. Match each tone to the stone that sings with it.">
+    <meta name="author" content="ÆTHERRA Holistic Beauty">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#0a0a12">
+    <link rel="canonical" href="https://aetherraholistic.ca/solfeggio.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aetherraholistic.ca/solfeggio.html">
+    <meta property="og:title" content="Solfeggio | ÆTHERRA Holistic Beauty">
+    <meta property="og:description" content="The ancient harmonic frequencies and the crystals that carry their resonance.">
+    <meta property="og:image" content="https://aetherraholistic.ca/logocircle.png">
+    <meta property="og:image:width" content="400">
+    <meta property="og:image:height" content="400">
+    <meta property="og:locale" content="en_CA">
+    <meta property="og:site_name" content="ÆTHERRA Holistic Beauty">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://aetherraholistic.ca/solfeggio.html">
+    <meta property="twitter:title" content="Solfeggio | ÆTHERRA Holistic Beauty">
+    <meta property="twitter:description" content="The ancient harmonic frequencies and the crystals that carry their resonance.">
+    <meta property="twitter:image" content="https://aetherraholistic.ca/logocircle.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500&family=Alex+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .freq-card {
+            background: #12121e;
+            border: 1px solid rgba(201, 123, 58, 0.12);
+            border-radius: 0.75rem;
+            padding: 1.75rem;
+            transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+        }
+        .freq-card:hover {
+            border-color: rgba(201, 123, 58, 0.35);
+            box-shadow: 0 0 30px rgba(212, 163, 115, 0.08);
+            transform: translateY(-3px);
+        }
+        .freq-number {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 3rem;
+            line-height: 1;
+            color: #d4a373;
+            font-weight: 600;
+        }
+        .freq-hz {
+            font-family: 'Poppins', sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.25em;
+            color: #8a7e72;
+            text-transform: uppercase;
+        }
+        .stone-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #0d0d18;
+            border: 1px solid rgba(201, 123, 58, 0.12);
+            border-radius: 9999px;
+            padding: 0.4rem 0.9rem;
+            font-size: 0.8rem;
+            color: #c4b8a8;
+        }
+        .stone-chip a {
+            color: #d4a373;
+            transition: color 0.2s ease;
+        }
+        .stone-chip a:hover {
+            color: #e8c88a;
+        }
+        .stone-dot {
+            width: 0.65rem;
+            height: 0.65rem;
+            border-radius: 9999px;
+            flex-shrink: 0;
+            display: inline-block;
+        }
+        .freq-pill {
+            background: #12121e;
+            border: 1px solid rgba(201, 123, 58, 0.15);
+            border-radius: 9999px;
+            padding: 0.4rem 0.9rem;
+            font-size: 0.78rem;
+            color: #c4b8a8;
+            transition: all 0.2s ease;
+        }
+        .freq-pill:hover {
+            border-color: #d4a373;
+            color: #d4a373;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="bg-[#0a0a12] fixed w-full z-50 border-b border-[#c97b3a]/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0">
+                    <a href="index.html"><img class="h-20" src="logocircle.png" alt="ÆTHERRA Logo"></a>
+                </div>
+                <div class="hidden md:flex md:items-center md:space-x-8">
+                    <a href="index.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Home</a>
+                    <a href="skincare.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Skincare</a>
+                    <div class="relative group">
+                    <a href="jewelry.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Jewelry <i class="fas fa-chevron-down ml-1 text-xs"></i></a>
+                    <div class="absolute left-0 top-full pt-2 hidden group-hover:block min-w-[190px]">
+                        <div class="bg-[#12121e] border border-[#c97b3a]/20 rounded-lg shadow-lg py-2">
+                            <a href="bracelets.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Bracelets</a>
+                            <a href="necklaces.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Necklaces</a>
+                            <a href="rings.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Rings</a>
+                            <a href="earrings.html" class="block px-4 py-2 text-sm text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] transition-slow">Earrings</a>
+                        </div>
+                    </div>
+                </div>
+                    <a href="zodiac-crystals.html" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Birthstones</a>
+                    <a href="solfeggio.html" class="text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Solfeggio</a>
+                    <a href="index.html#about" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">About</a>
+                    <a href="index.html#values" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Our Values</a>
+                    <a href="index.html#contact" class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow">Contact</a>
+                    <button id="cart-button-desktop"
+                        class="text-[#c4b8a8] hover:text-[#d4a373] px-3 py-2 text-sm font-medium transition-slow relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-red-500 text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] focus:outline-none">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <button type="button" id="cart-button-mobile"
+                        class="ml-4 p-2 rounded-md text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e] focus:outline-none relative">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count-badge absolute top-0 right-0 block h-4 w-4 transform -translate-y-1/2 translate-x-1/2 rounded-full ring-2 ring-white bg-red-500 text-white text-xs font-bold text-center leading-none hidden">0</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-[#12121e] border-t border-[#c97b3a]/20 shadow-lg">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="index.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Home</a>
+                <a href="skincare.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Skincare</a>
+                <a href="jewelry.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Jewelry</a>
+<a href="bracelets.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Bracelets</a>
+                <a href="necklaces.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Necklaces</a>
+                <a href="rings.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Rings</a>
+                <a href="earrings.html" class="block pl-8 pr-3 py-2 rounded-md text-sm font-medium text-[#8a7e72] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Earrings</a>
+                <a href="zodiac-crystals.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Birthstones</a>
+                <a href="solfeggio.html" class="block px-3 py-2 rounded-md text-base font-medium text-[#d4a373] hover:bg-[#1a1a2e]">Solfeggio</a>
+                <a href="index.html#about" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">About</a>
+                <a href="index.html#values" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Our Values</a>
+                <a href="index.html#contact" class="block px-3 py-2 rounded-md text-base font-medium text-[#c4b8a8] hover:text-[#d4a373] hover:bg-[#1a1a2e]">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="hero-gradient page-hero">
+        <div class="relative z-10">
+            <h1 style="font-family: 'Alex Brush', cursive;">Solfeggio</h1>
+            <p class="text-lg sm:text-xl text-[#c4b8a8] font-light tracking-wide mt-4" style="font-family: 'Poppins', sans-serif;">The ancient frequencies &amp; the crystals that sing with them</p>
+        </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="py-12 bg-[#0d0d18]">
+        <div class="container text-center">
+            <p class="text-[#c4b8a8] max-w-3xl mx-auto leading-relaxed">
+                The Solfeggio scale is a set of six (and later eleven) sacred tones said to carry the original harmonic language of creation. Each frequency was used in ancient chants to console, inspire, and heal. Crystals are not the sound itself — but they are the still, resonant body that remembers it. Stone and tone share the same geometry; when you wear a crystal tuned to a frequency, you carry that vibration with you through the day.
+            </p>
+            <p class="text-[#8a7e72] max-w-2xl mx-auto leading-relaxed mt-4 text-sm">
+                Below, each Solfeggio frequency meets the stones that echo its intention. Stones marked "Shop" are in our current collection.
+            </p>
+        </div>
+    </section>
+
+    <!-- Frequency Quick Nav -->
+    <section class="py-8 bg-[#0a0a12]">
+        <div class="container">
+            <div class="flex flex-wrap justify-center gap-3">
+                <a href="#freq-174" class="freq-pill">174 Hz</a>
+                <a href="#freq-285" class="freq-pill">285 Hz</a>
+                <a href="#freq-396" class="freq-pill">396 Hz</a>
+                <a href="#freq-417" class="freq-pill">417 Hz</a>
+                <a href="#freq-528" class="freq-pill">528 Hz</a>
+                <a href="#freq-639" class="freq-pill">639 Hz</a>
+                <a href="#freq-741" class="freq-pill">741 Hz</a>
+                <a href="#freq-852" class="freq-pill">852 Hz</a>
+                <a href="#freq-963" class="freq-pill">963 Hz</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequency Grid -->
+    <section class="py-16 bg-[#0a0a12]">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 stagger-children">
+
+                <!-- 174 Hz -->
+                <article id="freq-174" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">174</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Foundation &amp; Release</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The lowest of the tones, a deep physical anchor. It settles the nervous system, eases tension in the body, and helps us feel safe in our own ground.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#d4553f"></span>Red Coral <a href="bracelets.html#chip-red-coral-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#1c1c1c"></span>Onyx <a href="bracelets.html#chip-onyx-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#6b5b4d"></span>Smoky Quartz</li>
+                    </ul>
+                </article>
+
+                <!-- 285 Hz -->
+                <article id="freq-285" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">285</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Regeneration</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">A frequency of renewal that nudges cells and energy fields toward repair and vitality. It is the sound of the body remembering how to restore itself.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#8b2252"></span>Garnet <a href="bracelets.html#garnet-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#e88aa0"></span>Strawberry Quartz <a href="bracelets.html#strawberry-quartz-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#ffc9d0"></span>Cherry Quartz</li>
+                    </ul>
+                </article>
+
+                <!-- 396 Hz -->
+                <article id="freq-396" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">396</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Liberation</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The tone Ut, sung to release guilt and fear. It loosens old patterns and heavy stories so what is lighter can rise to the surface.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#1a1a24"></span>Obsidian</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#2c2c2e"></span>Black Tourmaline <a href="necklaces.html#black-tourmaline-chip-necklace"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#b8860b"></span>Tiger's Eye</li>
+                    </ul>
+                </article>
+
+                <!-- 417 Hz -->
+                <article id="freq-417" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">417</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Change &amp; Undoing</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The tone Re, known for facilitating change and dissolving stagnation. It clears the way for a new chapter to begin without looking back.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#7bc47f"></span>Green Aventurine <a href="bracelets.html#chip-aventurine-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#4a7fb5"></span>Blue Aventurine <a href="bracelets.html#blue-aventurine-8mm-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#7d6b5d"></span>Dragon's Blood <a href="bracelets.html#dragonsblood-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                    </ul>
+                </article>
+
+                <!-- 528 Hz -->
+                <article id="freq-528" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">528</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Transformation &amp; Miracles</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The celebrated "love frequency" (Mi). Said to repair on a deep level and open the heart to what is possible, it is the sound of becoming.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#f4a0b0"></span>Rose Quartz</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#c8e0a0"></span>Prehnite</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#8bc34a"></span>Peridot <a href="bracelets.html#chip-peridot-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                    </ul>
+                </article>
+
+                <!-- 639 Hz -->
+                <article id="freq-639" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">639</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Reconnection</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The tone Fa of relationships — between people, and between the self and the world. It softens what is tense and invites harmony into connection.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#7ec8c8"></span>Aquamarine <a href="bracelets.html#chip-aquamarine-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#f5f0eb"></span>Pearl <a href="necklaces.html#pearl-8mm-necklace"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#d4c8a0"></span>Cowrie Shell</li>
+                    </ul>
+                </article>
+
+                <!-- 741 Hz -->
+                <article id="freq-741" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">741</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Expression &amp; Truth</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The tone Sol of pure communication. It helps us speak clearly, purge what is not ours, and feel at ease with our authentic voice.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#3a5f8a"></span>Blue Tiger's Eye</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#2a3f6f"></span>Sodalite</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#1f3a5f"></span>Lapis Lazuli</li>
+                    </ul>
+                </article>
+
+                <!-- 852 Hz -->
+                <article id="freq-852" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">852</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Intuition &amp; Spiritual Order</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The tone La that returns us to inner order. It opens the eye of perception and helps us trust the quiet knowing that precedes thought.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#c48cce"></span>Amethyst <a href="bracelets.html#amethyst-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#a8c0e0"></span>Angelite</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#f0ead6"></span>Selenite</li>
+                    </ul>
+                </article>
+
+                <!-- 963 Hz -->
+                <article id="freq-963" class="freq-card">
+                    <p class="freq-hz">Solfeggio Frequency</p>
+                    <p class="freq-number">963</p>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mt-1">Divine Consciousness</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed mt-3 mb-4">The highest tone, the crown of the scale. It calls in clarity, presence, and the awareness that you are part of something vast and unbroken.</p>
+                    <ul class="flex flex-wrap gap-2">
+                        <li class="stone-chip"><span class="stone-dot" style="background:#d4d4d4"></span>Clear Quartz</li>
+                        <li class="stone-chip"><span class="stone-dot" style="background:#d4a017"></span>Citrine <a href="bracelets.html#citrine-6mm-bracelet"><i class="fas fa-circle-arrow-right ml-1"></i></a></li>
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How to use -->
+    <section class="py-16 bg-[#0d0d18]">
+        <div class="container">
+            <h2 class="section-title">Wearing the Frequencies</h2>
+            <p class="section-sub">A simple way to choose your tone</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 stagger-children">
+                <div class="text-center">
+                    <i class="fas fa-heart text-2xl text-[#d4a373] mb-4"></i>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-2">Ask what you need</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed">Grounding and calm? Begin at 174 Hz. A change you have been avoiding? 417 Hz speaks first. Let the body answer before the mind does.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-gem text-2xl text-[#d4a373] mb-4"></i>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-2">Choose a matching stone</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed">Once the frequency finds you, pick a crystal from its family. Wear it as a bracelet or necklace so the resonance stays close to your skin.</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-music text-2xl text-[#d4a373] mb-4"></i>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-2">Let the tone work</h3>
+                    <p class="text-[#c4b8a8] text-sm leading-relaxed">Sit quietly with your stone while a Solfeggio track plays. There is nothing to force — the frequency and the crystal simply keep time together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 bg-[#0a0a12]">
+        <div class="container text-center">
+            <h2 class="section-title">Find your frequency</h2>
+            <p class="text-[#c4b8a8] max-w-2xl mx-auto mb-8 leading-relaxed">Every crystal in our collection is handpicked and charged with intention. Let one of them carry your note for you.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="bracelets.html" class="btn-primary">Shop Bracelets</a>
+                <a href="necklaces.html" class="btn-outline">Shop Necklaces</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0a0a12] border-t border-[#c97b3a]/20 text-[#e8e0d8] py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="mb-8 md:mb-0">
+                    <a href="index.html"><img src="logocircle.png" alt="ÆTHERRA Logo" class="h-12 mb-4"></a>
+                    <p class="text-[#8a7e72] text-sm">The Essence of the Ethereal. Handcrafted skincare and copper jewelry for sensitive souls.</p>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Collections</h3>
+                    <ul class="space-y-2">
+                        <li><a href="skincare.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Skincare</a></li>
+                        <li><a href="jewelry.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Jewelry</a></li>
+                        <li><a href="index.html#featured-items" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Featured Items</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Explore</h3>
+                    <ul class="space-y-2">
+                        <li><a href="zodiac-crystals.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Birthstones</a></li>
+                        <li><a href="solfeggio.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Solfeggio</a></li>
+                        <li><a href="index.html#about" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">About</a></li>
+                        <li><a href="index.html#values" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Our Values</a></li>
+                        <li><a href="index.html#contact" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="title-font text-lg font-semibold text-[#d4a373] mb-4">Info</h3>
+                    <ul class="space-y-2">
+                        <li><a href="shipping-policy.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Shipping Policy</a></li>
+                        <li><a href="returns-refunds.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Returns & Refunds</a></li>
+                        <li><a href="privacy-policy.html" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow text-sm">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-[#c97b3a]/20 mt-12 pt-8">
+                <p class="text-[#8a7e72] text-xs leading-relaxed text-center">Disclaimer: The information and products on this site are for general informational purposes only and are not intended to diagnose, treat, cure, or prevent any disease. Our products have not been evaluated by the Food and Drug Administration. Always perform a patch test before first use and consult a physician before using any skincare product or copper jewelry, especially if you are pregnant, nursing, or taking medication. Copper jewelry may cause skin reactions in those with metal or copper sensitivity. Results may vary from person to person. By purchasing from ÆTHERRA, you acknowledge that you have read and understood this disclaimer.</p>
+            </div>
+            <div class="border-t border-[#c97b3a]/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-[#8a7e72] text-sm mb-4 md:mb-0">&copy; 2026 ÆTHERRA Holistic Beauty. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-cc-visa text-2xl"></i></a>
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-cc-mastercard text-2xl"></i></a>
+                    <a href="#" class="text-[#8a7e72] hover:text-[#d4a373] transition-slow"><i class="fab fa-paypal text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div id="cart-modal" class="fixed inset-0 z-50 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-black bg-opacity-80 backdrop-blur-sm transition-opacity"></div>
+        <div class="fixed inset-0 overflow-hidden">
+            <div class="absolute inset-0 overflow-hidden">
+                <div class="pointer-events-none fixed inset-y-0 right-0 flex max-w-full pl-10">
+                    <div class="pointer-events-auto w-screen max-w-md">
+                        <div class="flex h-full flex-col overflow-y-auto bg-[#12121e] shadow-xl border-l border-[#c97b3a]/20">
+                            <div class="flex-1 px-4 py-6 sm:px-6">
+                                <div class="flex items-start justify-between">
+                                    <h2 class="text-lg font-medium text-[#d4a373]" id="slide-over-title">Shopping Cart</h2>
+                                    <div class="ml-3 flex h-7 items-center">
+                                        <button type="button" id="close-cart" class="relative -m-2 p-2 text-[#8a7e72] hover:text-[#d4a373]">
+                                            <span class="absolute -inset-0.5"></span>
+                                            <span class="sr-only">Close panel</span>
+                                            <i class="fas fa-times"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="mt-8">
+                                    <div class="flow-root">
+                                        <div id="cart-items" class="divide-y divide-[#c97b3a]/10"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="border-t border-[#c97b3a]/20 px-4 py-6 sm:px-6">
+                                <div class="flex justify-between text-base font-medium text-[#e8e0d8]">
+                                    <p>Subtotal</p>
+                                    <p id="cart-total">$0.00</p>
+                                </div>
+                                <div class="flex justify-between text-base font-medium text-[#e8e0d8] mt-2">
+                                    <p>Shipping</p>
+                                    <p id="cart-shipping">$10.00</p>
+                                </div>
+                                <div class="flex justify-between text-base font-semibold text-[#d4a373] mt-2 mb-6">
+                                    <p>Total</p>
+                                    <p id="cart-grand-total">$0.00</p>
+                                </div>
+                                <p class="mt-0.5 text-sm text-[#6b6058] mb-6">Free shipping on orders over $75. Taxes calculated at checkout.</p>
+                                <div id="paypal-button-container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cart.js"></script>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function () {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+        window.addEventListener('scroll', function () {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 10) {
+                nav.classList.add('shadow-lg');
+            } else {
+                nav.classList.remove('shadow-lg');
+            }
+        });
+
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    revealObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.stagger-children').forEach(el => {
+            revealObserver.observe(el);
+        });
+    </script>
+</body>
+</html>
